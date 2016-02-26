@@ -4,22 +4,22 @@ namespace Craft;
 
 class RedirectorPlugin extends BasePlugin
 {
-	function getName()
+	public function getName()
 	{
-		 return Craft::t('Redirector');
+		return Craft::t('Redirector');
 	}
 
-	function getVersion()
+	public function getVersion()
 	{
-		return '0.0.1';
+		return '0.0.2';
 	}
 
-	function getDeveloper()
+	public function getDeveloper()
 	{
 		return 'Flexify.net';
 	}
 
-	function getDeveloperUrl()
+	public function getDeveloperUrl()
 	{
 		return 'https://www.flexify.net';
 	}

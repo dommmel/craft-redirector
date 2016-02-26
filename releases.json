@@ -1,8 +1,18 @@
 [
-    {
-        "version": "0.0.1",
-        "downloadUrl": " https://github.com/dommmel/craft-redirector/archive/0.0.1.zip",
-        "date": "2016-02-26T12:15:00+01:00",
-        "notes": "Initial release"
-    }
+  {
+    "version": "0.0.2",
+    "downloadUrl": "https://github.com/dommmel/craft-redirector/archive/0.0.2.zip",
+    "date": "2016-02-26T21:11:04+01:00",
+    "critical": "true",
+    "notes": [
+      "[Fixed] Fixed an issue where removing a legacy URL would not delete the corresponding database field",
+      "[Improved] Improved source code formating"
+    ]
+  },
+  {
+    "version": "0.0.1",
+    "downloadUrl": "https://github.com/dommmel/craft-redirector/archive/0.0.1.zip",
+    "date": "2016-02-26T12:15:00+01:00",
+    "notes": "Initial release"
+  }
 ]
