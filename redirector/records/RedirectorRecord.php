@@ -31,6 +31,7 @@ class RedirectorRecord extends BaseRecord
             array('columns' => array('urlPattern'), 'unique' => true)
         );
     }
+
     /**
      * @inheritDoc BaseRecord::defineAttributes()
      *
