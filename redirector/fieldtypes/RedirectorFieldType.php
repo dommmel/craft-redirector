@@ -60,7 +60,7 @@ class RedirectorFieldType extends BaseFieldType
 	*/
 	public function validate($value)
 	{
-		return '"'.$value.'"' . Craft::t(' is already being used in another entry.');
+		return '"'.$value.'"' . Craft::t(' is already being used somewhere else.');
 	}
 
 }
