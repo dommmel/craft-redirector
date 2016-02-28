@@ -1,5 +1,14 @@
 [
   {
+    "version": "0.0.3",
+    "downloadUrl": "https://github.com/dommmel/craft-redirector/archive/0.0.3.zip",
+    "date": "2016-02-28T23:12:28+01:00",
+    "notes": [
+      "[Added] Added validation/error message when legacy url is not unique",
+      "[Added] Added german translation"
+    ]
+  },
+  {
     "version": "0.0.2",
     "downloadUrl": "https://github.com/dommmel/craft-redirector/archive/0.0.2.zip",
     "date": "2016-02-26T21:11:04+01:00",
