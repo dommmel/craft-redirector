@@ -14,6 +14,11 @@ class RedirectorPlugin extends BasePlugin
 		return '0.0.3';
 	}
 
+	public function getSchemaVersion()
+	{
+		return '0.0.1';
+	}
+
 	public function getDeveloper()
 	{
 		return 'Flexify.net';
