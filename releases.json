@@ -1,5 +1,13 @@
 [
   {
+    "version": "0.0.4",
+    "downloadUrl": "https://github.com/dommmel/craft-redirector/archive/0.0.4.zip",
+    "date": "2016-03-07T00:39:46+01:00",
+    "notes": [
+      "[Fixed] Fixed validation bug"
+    ]
+  },
+  {
     "version": "0.0.3",
     "downloadUrl": "https://github.com/dommmel/craft-redirector/archive/0.0.3.zip",
     "date": "2016-02-28T23:12:28+01:00",

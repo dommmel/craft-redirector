@@ -22,9 +22,9 @@ class RedirectorService extends BaseApplicationComponent
 		if ($existingEntry)
 		{
 			$existingEntry->urlPattern = $urlPattern;
-			$existingEntry->save();
+			return $existingEntry->save();
 		} else {
-			$this->create($entryId, $locale, $urlPattern);
+			return $this->create($entryId, $locale, $urlPattern);
 		}
 	}
 
@@ -41,7 +41,7 @@ class RedirectorService extends BaseApplicationComponent
 		$record->targetEntryId = $entryId;
 		$record->urlPattern = $urlPattern;
 		$record->locale = $locale;
-		$record->save();
+		return $record->save();
 	}
 
 }
